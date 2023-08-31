@@ -1,0 +1,55 @@
+.
+├── main
+│   ├── java
+│   │   └── io
+│   │       └── swagger
+│   │           ├── RFC3339DateFormat.java
+│   │           ├── Swagger2SpringBoot.java
+│   │           ├── api
+│   │           │   ├── ApiException.java
+│   │           │   ├── ApiOriginFilter.java
+│   │           │   ├── ApiResponseMessage.java
+│   │           │   ├── ArticlesApi.java
+│   │           │   ├── ArticlesApiController.java
+│   │           │   ├── NotFoundException.java
+│   │           │   ├── ProfilesApi.java
+│   │           │   ├── ProfilesApiController.java
+│   │           │   ├── TagsApi.java
+│   │           │   ├── TagsApiController.java
+│   │           │   ├── UserApi.java
+│   │           │   ├── UserApiController.java
+│   │           │   ├── UsersApi.java
+│   │           │   └── UsersApiController.java
+│   │           ├── configuration
+│   │           │   ├── CustomInstantDeserializer.java
+│   │           │   ├── HomeController.java
+│   │           │   ├── JacksonConfiguration.java
+│   │           │   ├── LocalDateConverter.java
+│   │           │   ├── LocalDateTimeConverter.java
+│   │           │   ├── SwaggerDocumentationConfig.java
+│   │           │   └── SwaggerUiConfiguration.java
+│   │           └── model
+│   │               ├── Article.java
+│   │               ├── Comment.java
+│   │               ├── GenericErrorModel.java
+│   │               ├── GenericErrorModelErrors.java
+│   │               ├── InlineResponse200.java
+│   │               ├── InlineResponse2001.java
+│   │               ├── InlineResponse2002.java
+│   │               ├── InlineResponse2003.java
+│   │               ├── InlineResponse2004.java
+│   │               ├── InlineResponse2005.java
+│   │               ├── InlineResponse201.java
+│   │               ├── LoginUser.java
+│   │               ├── NewArticle.java
+│   │               ├── NewComment.java
+│   │               ├── NewUser.java
+│   │               ├── Profile.java
+│   │               ├── UpdateArticle.java
+│   │               ├── UpdateUser.java
+│   │               └── User.java
+│   └── resources
+│       └── application.properties
+└── tree.txt
+
+9 directories, 44 files
